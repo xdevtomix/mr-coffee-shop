@@ -10,7 +10,7 @@ export default function Header() {
             
             <Logo href="#">
                 Coffee
-                <i class='bx bxs-coffee-togo' ></i>
+                <i className='bx bxs-coffee-togo' ></i>
             </Logo>
 
             <Navbar isMenuOpen={isMenuOpen}>
