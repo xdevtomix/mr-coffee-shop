@@ -11,7 +11,7 @@ export default function Home() {
     const [selectedImage, setSelectedImage] = useState(images[0]);
 
     return (
-        <Container data-component="home" id="home" innerHeight={innerHeight}>
+        <Container data-component="home" id="home">
             <Info>
                 <div>
                     <h1>Fresh coffee in the morning</h1>
@@ -29,7 +29,7 @@ export default function Home() {
 }
 
 const Container = styled.div`
-    height: ${({innerHeight}) => `${innerHeight}px`};
+    height: 100vh;
     background: url(https://images.pexels.com/photos/1166646/pexels-photo-1166646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-size: cover;
