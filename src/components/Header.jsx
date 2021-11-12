@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [menuButtonClass, setMenuButtonClass] = useState('bx-menu');
 
     return (
         <Container data-component="header">
@@ -96,8 +95,7 @@ const Navbar = styled.nav`
 
     @media(min-width: 768px) {
         position: static;
-        background: initial;
-        display: initial;
+        background: transparent;
         opacity: 1;
         visibility: visible;
 
