@@ -13,7 +13,7 @@ export default function Header() {
                 <i className='bx bxs-coffee-togo' ></i>
             </Logo>
 
-            <Navbar isMenuOpen={isMenuOpen}>
+            <Navbar isMenuOpen={isMenuOpen} onClick={() => setIsMenuOpen(false)}>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#menu">Menu</a>
