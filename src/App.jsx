@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Review from "./components/Review";
+import Booking from "./components/Booking";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <About />
         <Menu />
         <Review />
+        <Booking />
+        <Footer />
       </Container>
     </StyleSheetManager>
   )
