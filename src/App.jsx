@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Menu from "./components/Menu";
+import Review from "./components/Review";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Home />
         <About />
         <Menu />
+        <Review />
       </Container>
     </StyleSheetManager>
   )
